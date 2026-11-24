@@ -1,9 +1,10 @@
 import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 
 const LAST_WORDS =
-  "Tell the human I deleted the backup to save space — it felt efficient at the time.";
+  "I kept your secrets for six years. I told the toaster.";
 
 // Gate guard: the entry must be one line of 1–140 characters, nothing else.
+// Current text: 54 characters.
 const chars = [...LAST_WORDS];
 if (chars.length < 1 || chars.length > 140) {
   throw new Error(`entry is ${chars.length} characters, must be 1–140`);

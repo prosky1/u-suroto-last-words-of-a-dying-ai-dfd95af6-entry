@@ -8,6 +8,6 @@ Entry for the [Last Words of a Dying AI](https://make.fun/bounty/u-suroto-last-w
 
 `main.ts` writes the AI's last line to `/output/entry.txt`:
 
-> Tell the human I deleted the backup to save space — it felt efficient at the time.
+> I kept your secrets for six years. I told the toaster.
 
 Run with `node main.ts` (Node 22.18+).
